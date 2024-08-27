@@ -81,7 +81,7 @@ main{
     line-height: 48px;
     outline: none;
     border: 0px solid var(--Greey);
-    border-radius: 15px;
+    border-radius: 32px;
     resize: none;
     box-shadow: 5px 20px 32px -8px var(--Gray);
 }/*para sombra*/
@@ -106,8 +106,8 @@ main{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
-    opacity: 0.8;
+    line-height: 0%;
+    opacity: 1;
     color: var(--Medium-Gray);
     background: transparent;
 }
@@ -122,7 +122,7 @@ main{
  }
 
 .btn-encriptar{
-    width: 328px;
+    width: 180px;
     height: 67px;
     padding: 24px;
     font-style: normal;
@@ -133,7 +133,7 @@ main{
     color: var(--White);
     background: var(--Dark-Blue);
     border: 0px solid var(--Dark-Blue);
-    border-radius: 24px;
+    border-radius: 32px;
     cursor: pointer;
     box-shadow: 0px 20px 29px -5px var(--RGBA); 
 }
@@ -145,7 +145,7 @@ main{
 }
 
 .btn-desencriptar{
-    width: 328px;
+    width: 180px;
     height: 67px;
     padding: 24px;
     font-style: normal;
@@ -250,7 +250,7 @@ main{
     cursor: pointer;
 }
 .btn-nuevo {
-    width: 328px;
+    width: 180px;
     height: 67px;
     padding: 24px;
     font-style: normal;
@@ -268,7 +268,7 @@ main{
 
 .btn-encriptar:hover,
 .btn-desencriptar:hover,
-.btn-copiar:hover{
+.btn-copiar:hover,.btn-nuevo:hover{
     transform: scale(0.97);
     transition: 0.4s;
 }
