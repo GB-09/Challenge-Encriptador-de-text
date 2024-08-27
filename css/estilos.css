@@ -248,6 +248,15 @@ main{
     border-radius: 20px;
     cursor: pointer;
 }
+.btn-limpiar {
+    background-color: #f44336; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Relleno */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor cuando se pasa por encima */
+    margin-left: 10px; /* Margen izquierdo para separación */
+}
 
 .btn-encriptar:hover,
 .btn-desencriptar:hover,

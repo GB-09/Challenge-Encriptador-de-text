@@ -6,8 +6,15 @@ const respuesta = document.querySelector(".evaluar");
 const contenido = document.querySelector(".tarjeta-contenedor");
 const btnCopiar = document.querySelector(".btn-copiar");
 const btnDesencriptar = document.querySelector(".btn-desencriptar");
+const limpiarBtn = document.querySelector(".btn-limpiar");
 
 //-------Boton de Encriptar-------//
+
+limpiarBtn.addEventListener("click", function() {
+    encriptarTextarea.value = "";
+    evaluarTextarea.value = "";
+});
+
 btnEncriptar.addEventListener("click", e=>{
     e.preventDefault();
     let texto = txtEncriptar.value;
