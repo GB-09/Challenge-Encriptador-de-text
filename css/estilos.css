@@ -7,13 +7,13 @@ Fuentes
 Global Css
 ------------*/
 :root{
-    --Font:#E5E5E5;
+    --Font:#c1d2e2;
     --White:#FFFFFF;
-    --Dark-Blue:#0A3871;
+    --Dark-Blue:#223659;
     --Greey:#C7C7C7;
     --Medium-Gray:#67808E;
     --RGBA:rgba(0,0,0,0.08);
-    --White-Blue:#D8DFE8;
+    --White-Blue:#cbd9e6;   
     --Medium-Blue:#0a38718a;
     --Gray:#343A40;
     --Gree:#495057;
@@ -61,7 +61,7 @@ Principal
 main{
     display: flex;
     flex-direction: row;
-    background: url(../imagenes/portada3.jpg) no-repeat;
+    background: url(../imagenes/portada.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     
@@ -76,7 +76,7 @@ main{
 .encriptar{
     width: 660px;
     height: 288px;
-    font-weight: 400;
+    font-weight: 00;
     font-size: 32px;
     line-height: 48px;
     outline: none;
@@ -104,11 +104,11 @@ main{
 .texto-aviso{
     width: 100%;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 0%;
     opacity: 1;
-    color: var(--Medium-Gray);
+    color: var(--Dark-Blue);
     background: transparent;
 }
 
@@ -119,6 +119,7 @@ main{
     gap: 8px;
     position: absolute;
     top: 526px;
+    
  }
 
 .btn-encriptar{
@@ -126,14 +127,14 @@ main{
     height: 67px;
     padding: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 19px;
     text-align: center;
     color: var(--White);
     background: var(--Dark-Blue);
     border: 0px solid var(--Dark-Blue);
-    border-radius: 32px;
+    border-radius: 30px;
     cursor: pointer;
     box-shadow: 0px 20px 29px -5px var(--RGBA); 
 }
@@ -149,14 +150,14 @@ main{
     height: 67px;
     padding: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 19px;
     text-align: center;
     color: var(--Dark-Blue);
     background: var(--White-Blue);
     border: 0px solid var(--Dark-Blue);
-    border-radius: 24px;
+    border-radius: 32px ;
     cursor: pointer;
     box-shadow: 0px 20px 29px -5px var(--RGBA); 
 }
@@ -193,7 +194,7 @@ main{
 .texto-uno{
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 120%;
     text-align: center;
     color: var(--Gray);
@@ -203,7 +204,7 @@ main{
 .texto-dos{
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 150%;
     text-align: center;
     color: var(--Medium-Gray);
@@ -244,7 +245,7 @@ main{
     font-size: 20px;
     line-height: 19px;
     text-align: center;
-    background: var(--White-Blue);
+    background: var(--White);
     border: 0px solid var(--Dark-Blue);
     border-radius: 20px;
     cursor: pointer;
@@ -259,11 +260,11 @@ main{
     line-height: 19px;
     text-align: center;
     color: var(--Dark-Blue);
-    background: var(--White-Blue);
+    background: var(--White);
     border: 0px solid var(--Dark-Blue);
-    border-radius: 24px;
+    border-radius: 32px;
     cursor: pointer;
-    box-shadow: 0px 20px 29px -5px var(--RGBA); 
+    box-shadow: 10px 20px 29px -5px var(--RGBA); 
     }
 
 .btn-encriptar:hover,
@@ -277,16 +278,17 @@ main{
 Pie De Página
 ------------------*/
 footer{
+    background: var;
     margin-top: 15px;
     padding: 10px;
-    border-top: 2px solid var(--Font);
+    border-top: 2px solid #8ec5f1;
     color: var(--Gray);
     text-align: center;
     height: 5px;
     font-size: 20px;
     font-weight: 700;
     color: var(--Gray);
-}
+    }
 
 .linked:hover{
     color: var(--Font);
